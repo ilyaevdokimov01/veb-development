@@ -1,0 +1,384 @@
+:root {
+  font-size: 62.5%;
+  /* 10px=1rem */
+  --color-white: #ffffff;
+  --color-main: #10151c;
+  --color-button-chat: rgba(255, 255, 255, 0.1);
+  --color-img-baby: rgba(0, 0, 0, 0.1);
+  --color-gradient-first: #432371;
+  --color-gradient-second: #faae7b;
+  --color-button-book: #fa0369;
+  --color-text-30min: #7e8597;
+  --color-text-start: #fa0369;
+  --color-section-whytictok: #141a25;
+  --color-text-letsget: #1a1a1a;
+  --color-footer: #f9f9fb;
+  --color-footer-border: #000000;
+  --color-text-allrights: rgba(26, 26, 26, 0.56);
+}
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Везде убрать высоту, оставить только ширину */
+body {
+  background: var(--color-main);
+}
+.container-1145{
+  width: 100%;
+  max-width: 1145px;
+  margin: 0 auto;
+}
+/* засунуть в отдельный класс */
+h1 {
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.header_hiperswipe .container-1145 {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-between;
+  align-items: center;
+  padding: 13px 0;  
+}
+.logo_hiperswipe, .logo_hiperswipe img{
+  display: block;
+}
+.button_chat {
+
+  padding: 24px 10px;
+  /* background-color: var(--color-button-chat); */
+  background-color: red;
+  border-radius: 100px;
+  display: block;
+
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: var(--color-white);
+  text-decoration: none;
+}
+.main_text {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  text-align: center;
+  color: var(--color-white);
+}
+.div_first {
+  background: linear-gradient(
+    180deg,
+    var(--color-gradient-first) 0%,
+    var(--color-gradient-second) 100%
+  );
+  border-radius: 14.0143px;
+}
+
+.img_baby {
+  filter: drop-shadow(0px 2.33571px 8.175px var(--color-img-baby));
+  border-radius: 9.34286px;
+}
+
+.button_book {
+  background: var(--color-button-book);
+  border-radius: 100px;
+
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--color-white);
+  text-decoration: none;
+}
+.p_30min {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--color-text-30min);
+  line-height: 1.6rem;
+}
+
+.text_start {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transdiv: uppercase;
+  color: var(--color-text-start);
+}
+.text_get_started {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  text-align: center;
+  color: var(--color-white);
+}
+.li_step {
+  border-radius: 24px;
+  background: var(--color-section-whytictok);
+  min-height: 262px;
+  padding: 54px 39px;
+  list-style-type: none;
+}
+.li_step:not(:last-child){
+  margin-bottom: 30px;
+}
+.li_step img {
+  display: block;
+  margin: 0 auto 42px;
+
+}
+.step_number_text {
+  width: 100%;
+  max-width: max-content;
+  background-color: var(--color-button-book);
+  padding: 5px 14px;
+  border-radius: 100px;
+
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: var(--color-white);
+  margin: 0 auto 12px;
+}
+
+.step_description{
+  font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 2.3rem;
+text-align: center;
+
+color: var(--color-text-30min);
+}
+.div_why_us {
+  background: linear-gradient(
+    180deg,
+    var(--color-gradient-first) 0%,
+    var(--color-gradient-second) 100%
+  );
+  border-radius: 14.0645px;
+}
+.text_why_us {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+
+  text-align: center;
+  color: var(--color-white);
+}
+.img_miniwifi {
+  border-radius: 9.37634px 9.37634px 0px 0px;
+}
+.text_creatives {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  color: var(--color-white);
+}
+.text_haveyou {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: var(--color-white);
+}
+.button_free_strategy {
+  background: var(--color-button-book);
+  border-radius: 100px;
+
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: var(--color-white);
+  text-decoration: none;
+}
+.div_girltictok {
+  background: linear-gradient(
+    180deg,
+    var(--color-gradient-first) 0%,
+    var(--color-gradient-second) 100%
+  );
+  border-radius: 14.0645px;
+}
+.img_girltictok {
+  border-radius: 9.37634px;
+}
+.text_ads {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  color: var(--color-white);
+}
+.text_wehave {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: var(--color-text-30min);
+  text-decoration: none;
+}
+.ul_for_ecom{
+  margin: 30px auto 40px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style-type: none;
+}
+.ul_for_ecom .li_for_ecom:first-child{
+ margin-right: 10px;
+}
+.div_miniwifi {
+  background: linear-gradient(
+    180deg,
+    var(--color-gradient-first) 0%,
+    var(--color-gradient-second) 100%
+  );
+  border-radius: 357px;
+}
+.text_endorsed {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  color: var(--color-white);
+}
+.text_werean {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: var(--color-text-30min);
+}
+.section_why_tictok {
+  background: var(--color-white);
+
+  background: var(--color-section-whytictok);
+  border-radius: 24px;
+}
+.text_whytictok {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  color: var(--color-white);
+}
+.text_Advertising {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: var(--color-white);
+}
+.text_communities {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: var(--color-white);
+}
+/* скрыть попроще display-none */
+.img_iphone {
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.section_letsget {
+  background: var(--color-white);
+}
+.text_letsget {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  color: var(--color-text-letsget);
+}
+.text_our_sole {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.2rem;
+  color: var(--color-text-letsget);
+}
+.img_oursole {
+  border-radius: 14px;
+}
+
+.footer_1 {
+  background: var(--color-footer);
+  border: 1px solid var(--color-footer-border);
+}
+.text_allrights {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 180%;
+  color: var(--color-text-allrights);
+}
+.facebook,
+.twiiter,
+.inst,
+.git {
+  width: 20px;
+}
+/*button
+{
+    padding-top: 18px;
+    padding-right: 24px;
+    fill: 10%;
+    border: none;
+    outline: none;
+
+}*/
