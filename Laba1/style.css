@@ -1,0 +1,443 @@
+:root {
+  font-size: 62.5%;
+  /* 10px=1rem */
+  --color-white: #ffffff;
+  --color-main: #10151c;
+  --color-button-chat: rgba(255, 255, 255, 0.1);
+  --color-img-baby: rgba(0, 0, 0, 0.1);
+  --color-gradient-first: #432371;
+  --color-gradient-second: #faae7b;
+  --color-button-book: #fa0369;
+  --color-text-30min: #7e8597;
+  --color-text-start: #fa0369;
+  --color-section-whytictok: #141a25;
+  --color-text-letsget: #1a1a1a;
+  --color-footer: #f9f9fb;
+  --color-footer-border: #000000;
+  --color-text-allrights: rgba(26, 26, 26, 0.56);
+}
+/* Везде убрать высоту, оставить только ширину */
+body {
+  background: var(--color-main);
+}
+/* засунуть в отдельный класс */
+h1 {
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.header_hiperswipe {
+  width: 375px;
+  height: 75px;
+}
+.logo_hiperswipe {
+  width: 144px;
+  height: 48px;
+
+  background: url(/Laba1/source/hyperswipe_logo.png);
+}
+.button_chat {
+  width: 113px;
+  height: 38px;
+
+  background: var(--color-button-chat);
+  border-radius: 100px;
+
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 18px;
+  text-align: center;
+  color: var(--color-white);
+  text-decoration: none;
+}
+.main_text {
+  width: 327px;
+  height: 168px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 42px;
+  text-align: center;
+  color: var(--color-white);
+}
+.form_first {
+  width: 327px;
+  height: 700px;
+
+  width: 327px;
+  height: 327px;
+  background: linear-gradient(
+    180deg,
+    var(--color-gradient-first) 0%,
+    var(--color-gradient-second) 100%
+  );
+  border-radius: 14.0143px;
+}
+
+.img_baby {
+  width: 220.14px;
+  height: 380.14px;
+  filter: drop-shadow(0px 2.33571px 8.175px var(--color-img-baby));
+  border-radius: 9.34286px;
+}
+
+.button_book {
+  width: 327px;
+  height: 50px;
+  background: var(--color-button-book);
+  border-radius: 100px;
+
+  width: 192px;
+  height: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 18px;
+  color: var(--color-white);
+  text-decoration: none;
+}
+.p_30min {
+  width: 264px;
+  height: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--color-text-30min);
+  line-height: 16px;
+}
+.list_4img {
+  width: 311px;
+    
+}
+.myprotein {
+  width: 156px;
+  height: 25px;
+}
+.MiHIGH {
+  width: 127.88px;
+  height: 25px;
+}
+.Streamloots {
+  width: 144.44px;
+  height: 25px;
+}
+.HairBurst {
+  width: 139px;
+  height: 19.69px;
+}
+.text_start {
+  width: 152px;
+  height: 21px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--color-text-start);
+}
+.text_get_started {
+  width: 316px;
+  height: 84px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 42px;
+  text-align: center;
+  color: var(--color-white);
+}
+.li_mouse {
+  width: 327.76px;
+  height: 262px;
+
+}
+
+.form_why_us {
+  width: 327px;
+  height: 310.59px;
+  background: linear-gradient(
+    180deg,
+    var(--color-gradient-first) 0%,
+    var(--color-gradient-second) 100%
+  );
+  border-radius: 14.0645px;
+}
+.text_why_us {
+  width: 241px;
+  height: 42px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 42px;
+  
+
+  text-align: center;
+  color: var(--color-white);
+}
+.img_miniwifi {
+  width: 223.27px;
+  height: 355.72px;
+  border-radius: 9.37634px 9.37634px 0px 0px;
+}
+.text_creatives {
+  width: 212px;
+  height: 31px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 31px;
+  color: var(--color-white);
+}
+.text_haveyou {
+  width: 326px;
+  height: 192px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: var(--color-white);
+}
+.button_free_strategy {
+  width: 327px;
+  height: 50px;
+  background: var(--color-button-book);
+  border-radius: 100px;
+
+  width: 192px;
+  height: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 18px;
+  text-align: center;
+  color: var(--color-white);
+  text-decoration: none;
+}
+.form_girltictok {
+  width: 327px;
+  height: 310.59px;
+  background: linear-gradient(
+    180deg,
+    var(--color-gradient-first) 0%,
+    var(--color-gradient-second) 100%
+  );
+  border-radius: 14.0645px;
+}
+.img_girltictok {
+  width: 251.5px;
+  height: 386.19px;
+  border-radius: 9.37634px;
+}
+.text_ads {
+  width: 195px;
+  height: 31px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 31px;
+  color: var(--color-white);
+}
+.text_wehave {
+  width: 322px;
+  height: 48px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: var(--color-text-30min);
+  text-decoration: none;
+}
+.li_for_ecom {
+  width: 165px;
+  height: 87px;
+
+  width: 156px;
+  height: 87px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  width: 48px;
+  height: 48px;
+}
+.form_miniwifi {
+  width: 327px;
+  height: 327px;
+  background: linear-gradient(
+    180deg,
+    var(--color-gradient-first) 0%,
+    var(--color-gradient-second) 100%
+   
+  );
+  border-radius: 357px;
+}
+.text_endorsed {
+  width: 194px;
+  height: 31px;
+
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 31px;
+  color: var(--color-white);
+}
+.text_werean {
+  width: 328px;
+  height: 191px;
+
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: var(--color-text-30min);
+}
+.section_why_tictok {
+  width: 375px;
+  height: 705px;
+  background: var(--color-white);
+
+  width: 328px;
+  height: 545px;
+  background: var(--color-section-whytictok);
+  border-radius: 24px;
+}
+.text_whytictok {
+  width: 188px;
+  height: 42px;
+
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 42px;
+  color: var(--color-white);
+}
+.text_Advertising {
+  width: 276px;
+  height: 126px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 21px;
+  color: var(--color-white);
+}
+.text_communities {
+  width: 245px;
+  height: 63px;
+
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 21px;
+  color: var(--color-white);
+}
+/* скрыть попроще display-none */
+.img_iphone {
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.section_letsget {
+  width: 375px;
+  height: 694px;
+
+  background: var(--color-white);
+}
+.text_letsget {
+  width: 255px;
+  height: 42px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 42px;
+  color: var(--color-text-letsget);
+}
+.text_our_sole {
+  width: 255px;
+  height: 42px;
+
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 42px;
+  color: var(--color-text-letsget);
+}
+.img_oursole {
+  width: 324px;
+  height: 307.74px;
+  border-radius: 13.9355px;
+}
+
+.footer_1 {
+  width: 375px;
+  height: 120px;
+  background: var(--color-footer);
+  border: 1px solid var(--color-footer-border);
+}
+.text_allrights {
+  width: 111px;
+  height: 44px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 180%;
+  color: var(--color-text-allrights);
+}
+.facebook {
+  width: 20px;
+  height: 20px;
+}
+.twiiter {
+  width: 20px;
+  height: 20px;
+}
+.inst {
+  width: 20px;
+  height: 20px;
+}
+.git {
+  width: 20px;
+  height: 20px;
+}
+/*button
+{
+    padding-top: 18px;
+    padding-right: 24px;
+    fill: 10%;
+    border: none;
+    outline: none;
+
+}*/
