@@ -33,7 +33,6 @@ body {
   max-width: 1145px;
   margin: 0 auto;
 }
-/* засунуть в отдельный класс */
 h1 {
   white-space: nowrap;
   width: 1px;
@@ -59,8 +58,7 @@ h1 {
 }
 .button_chat {
   padding: 24px 10px;
-  /* background-color: var(--color-button-chat); */
-  background-color: red;
+  background-color: var(--color-button-chat);
   border-radius: 100px;
   display: block;
 
