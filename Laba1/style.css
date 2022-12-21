@@ -141,7 +141,8 @@
   .pink-button {
 	background: var(--color-button-book);
 	border-radius: 100px;
-  
+	
+	box-shadow: 18px 11px 8px rgba(246, 84, 152, 0.7);
 	font-style: normal;
   
 	font-size: 1.4rem;
@@ -165,7 +166,7 @@
 	color: var(--color-text-30min);
 	line-height: 1.6rem;
   
-	margin-top: 5px;
+	margin-top: 15px;
 	text-align: center;
   }
   
