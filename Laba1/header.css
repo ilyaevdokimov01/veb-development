@@ -1,0 +1,195 @@
+:root {
+    font-size: 62.5%;
+    /* 10px=1rem */
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    --color-white: #ffffff;
+    --color-main: #10151c;
+    --color-button-chat: rgba(255, 255, 255, 0.1);
+    --color-img-baby: rgba(0, 0, 0, 0.1);
+    --color-gradient-first: #432371;
+    --color-gradient-second: #faae7b;
+    --color-button-book: #fa0369;
+    --color-text-30min: #7e8597;
+    --color-text-start: #fa0369;
+    --color-section-whytictok: #141a25;
+    --color-text-letsget: #1a1a1a;
+    --color-footer: #f9f9fb;
+    --color-footer-border: #000000;
+    --color-text-allrights: rgba(26, 26, 26, 0.56);
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: var(--color-main);
+}
+
+main {
+    margin-top: 94px;
+}
+
+img {
+    display: block;
+}
+
+button
+{
+    cursor: pointer;
+}
+
+.container-1145 {
+    width: 100%;
+    max-width: 1145px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+@media screen and (min-width: 577px)
+{
+    .container-1145
+    {
+        max-width: 540px;
+        padding: 0;
+    }
+}
+@media screen and (min-width: 769px)
+{
+    .container-1145
+    {
+        max-width: 720px;
+    }
+}
+@media screen and (min-width: 993px)
+{
+    .container-1145
+    {
+        max-width: 960px;
+    }
+}
+@media screen and (min-width: 1201px)
+{
+    .container-1145
+    {
+        max-width: 1145px;
+    }
+}
+
+.visually-hidden {
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.pink-button {
+    background: var(--color-button-book);
+    border-radius: 100px;
+
+    font-style: normal;
+
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--color-white);
+    text-decoration: none;
+
+    padding: 16px 25px;
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0 auto;
+
+    display: block;
+    text-align: center;
+
+    box-shadow: 0 0 10px 4px var(--color-button-book);
+}
+@media screen and (min-width: 769px)
+{
+    .pink-button
+    {
+        max-width: max-content;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 993px)
+{
+    .pink-button
+    {
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+
+        padding: 16px 48px;
+    }
+}
+
+/* HEADER START */
+.header_hiperswipe {
+    padding: 13px 0;
+}
+@media screen and (min-width: 769px)
+{
+    .header_hiperswipe
+    {
+        padding: 29px 0;
+    }
+}
+
+.header_hiperswipe .container-1145 {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_hiperswipe
+{
+    display: block;
+}
+.logo_hiperswipe img {
+    width: 100%;
+}
+
+.button_chat
+{
+    padding: 18px 24px;
+    background-color: var(--color-button-chat);
+    border-radius: 100px;
+    display: block;
+
+    font-style: normal;
+
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: var(--color-white);
+    text-decoration: none;
+
+    transition: .4s;
+}
+
+@media screen and (hover: hover)
+{
+    .button_chat:hover
+    {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+}
+.button_chat:focus
+{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.button_chat:active
+{
+    transform: scale(0.95);
+}
+/* HEADER END */

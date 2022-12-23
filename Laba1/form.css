@@ -1,0 +1,231 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    height: 100%;
+}
+
+header, main, footer
+{
+    width: 100%;
+}
+
+main
+{
+    flex-grow: 1;
+    padding-bottom: 70px;
+}
+
+input,
+select,
+textarea
+{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    padding: 10px 15px 10px 20px;
+
+    transition: .4s;
+}
+input[type="date"],
+select
+{
+    cursor: pointer;
+}
+
+@media screen and (hover: hover)
+{
+    input:hover,
+    select:hover,
+    textarea:hover
+    {
+        transform: scale(1.02);
+    }
+}
+
+input:focus,
+select:focus,
+textarea:focus
+{
+    border: 2px solid var(--color-button-book);
+}
+input::placeholder,
+textarea::placeholder
+{
+    color: var(--color-gradient-first);
+}
+
+textarea
+{
+    resize: vertical;
+}
+
+[type="reset"],
+[type="submit"]
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: left;
+
+    padding: 16px 20px;
+
+    border: none;
+    outline: none;
+
+    max-width: 180px;
+    min-width: min-content;
+    white-space: nowrap;
+
+    transition: .4s;
+}
+
+@media screen and (hover: hover)
+{
+    [type="reset"]:hover,
+    [type="submit"]:hover
+    {
+        transform: scale(1.05);
+    }
+}
+[type="reset"]:focus,
+[type="submit"]:focus
+{
+    transform: scale(1.05);
+}
+
+[type="reset"]:active,
+[type="submit"]:active
+{
+    transform: scale(0.95);
+}
+
+[type="reset"] svg,
+[type="submit"] svg
+{
+    width: 25px;
+    height: 25px;
+
+    display: block;
+    margin-left: 15px;
+}
+
+[type="submit"] svg path
+{
+    fill: #fff;
+}
+[type="reset"] svg path
+{
+    stroke: #fff;
+}
+
+input[type="checkbox"]
+{
+    max-width: max-content;
+    background-color: #fff;
+}
+
+.reg-form
+{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.reg-form fieldset
+{
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+    padding: 40px 20px 30px;
+}
+.reg-form fieldset:not(:last-child)
+{
+    margin-bottom: 30px;
+}
+
+.reg-form legend
+{
+    color: #fff;
+    padding: 0 15px;
+
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+::selection
+{
+    background-color: var(--color-button-book);
+    color: #fff;
+}
+
+.input-wrapper
+{
+    width: 100%;
+
+    margin-bottom: 15px;
+}
+fieldset .input-wrapper:last-child
+{
+    margin-bottom: 0;
+}
+
+.input-wrapper label
+{
+    display: block;
+    margin-bottom: 10px;
+
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.form-buttons
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.input-wrapper__title
+{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.input-wrapper__list
+{
+    list-style-type: none;
+    margin: 0;
+}
+
+.input-wrapper__list-item
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.input-wrapper__list-item label
+{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
